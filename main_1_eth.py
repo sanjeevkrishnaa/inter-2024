@@ -501,8 +501,8 @@ def main():
     global BTC_CSV_PATH_1H, ETH_CSV_PATH_1H  # Global variables to handle file paths
 
     # Set file paths here
-    BTC_CSV_PATH_1H = "data/2018-22/BTC_2019_2023_1h.csv"
-    ETH_CSV_PATH_1H = "data/2018-22/ETHUSDT_1h.csv"
+    BTC_CSV_PATH_1H = "BTC_2019_2023_1h.csv"
+    ETH_CSV_PATH_1H = "ETHUSDT_1h.csv"
     
     # Process data and apply all necessary indicators
     data = process_data(None)
