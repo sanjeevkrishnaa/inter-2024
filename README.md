@@ -10,8 +10,8 @@ This repository contains two distinct algorithmic trading strategies for Ethereu
 |--------------------|-----------------------------------------------------------------------------|
 | `main_1_eth.py`     | ETH trading strategy using feature-based signal construction, including BTC-ETH price correlation |
 | `main_1_btc.py`     | BTC trading strategy powered by a Q-learning reinforcement learning agent   |
-| `ETHUSDT_1h.csv`    | Hourly historical price data for ETH/USDT                                   |
-| `BTC_2019_2023_1h.csv` | Hourly historical price data for BTC from 2019 to 2023                     |
+| `data/ETH_2019_2023_1h.csv`    | Hourly historical price data for ETH/USDT                                   |
+| `data/BTC_2019_2023_1h.csv` | Hourly historical price data for BTC from 2019 to 2023                     |
 
 ---
 
