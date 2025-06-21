@@ -1,0 +1,5 @@
+hurst==0.0.5
+numpy==2.3.0
+pandas==2.0.0
+pykalman==0.9.7
+python_dateutil==2.9.0
