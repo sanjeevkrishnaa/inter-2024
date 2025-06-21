@@ -674,7 +674,7 @@ def perform_backtest_large_csv(csv_file_path):
     
 def main():
 
-    data = pd.read_csv("data/2018-22/BTC_2019_2023_1h.csv")
+    data = pd.read_csv("BTC_2019_2023_1h.csv")
     # Process the data
     data = process_data(data)
 
