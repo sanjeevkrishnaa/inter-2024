@@ -102,7 +102,7 @@ def process_data(data_incoming):
     test_start_datetime = '2023-01-01'
     test_end_datetime = '2024-01-01'
 
-    train_btc_data = pd.read_csv("data/2018-22/BTC_2019_2023_1h.csv")
+    train_btc_data = pd.read_csv("data/BTC_2019_2023_1h.csv")
 
     train_data = load_data(train_btc_data,train_start_datetime, train_end_datetime, drop_columns=['Unnamed: 0'])
     test_data = load_data(data_incoming,test_start_datetime, test_end_datetime, drop_columns=['Unnamed: 0'])
